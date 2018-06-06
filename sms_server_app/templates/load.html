@@ -1,0 +1,11 @@
+﻿<html>
+<head>
+</head>
+<body>
+<form method="POST" action="loading">
+	{% csrf_token %}
+    <textarea name="phones" rows="20" style="width:300px"></textarea><br><br>
+    <input type="submit" value="Загрузить" id="loadButton"/><br><br>
+</form>
+</body>
+<html>
